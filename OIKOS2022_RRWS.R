@@ -18,5 +18,11 @@ usethis::use_git()
 #Set credentials
 gitcreds::gitcreds_set()
 
+#See your token
+usethis::edit_r_environ()
+
 #generate readme
 usethis::use_readme_rmd()
+
+#Upload on github
+usethis::use_github()
