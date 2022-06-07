@@ -12,13 +12,15 @@ library("leaflet")
 library("plotly")
 library("usethis")
 
+####ENVIRONMENT####
+
 #New repo on GitHub - commit files
 usethis::use_git()
 
 #Set credentials
 gitcreds::gitcreds_set()
 
-#See your token
+#See your token - create token on github & copy link on environment
 usethis::edit_r_environ()
 
 #generate readme
