@@ -12,7 +12,7 @@ library("leaflet")
 library("plotly")
 library("usethis")
 
-#New repo on GitHub
+#New repo on GitHub - commit files
 usethis::use_git()
 
 #Set credentials
