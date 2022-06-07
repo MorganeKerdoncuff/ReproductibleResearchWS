@@ -15,5 +15,8 @@ library("usethis")
 #New repo on GitHub
 usethis::use_git()
 
+#Set credentials
+gitcreds::gitcreds_set()
+
 #generate readme
 usethis::use_readme_rmd()
